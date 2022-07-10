@@ -46,16 +46,16 @@ function greeting(){
     let src="";
     if(d.getHours()>20 || d.getHours()<=6)
         {g="Good Night";
-        document.body.style.backgroundImage='url("../images/night.jpg")';}
+        document.body.style.backgroundImage='url("./images/night.jpg")';}
     else if(d.getHours()>6 && d.getHours<=12)
         {g="Good Morning";
-        document.body.style.backgroundImage='url("../images/morning.jpg")';}
+        document.body.style.backgroundImage='url("./images/morning.jpg")';}
     else if(d.getHours()>12 && d.getHours()<=16)
         {g="Good Afternoon";
-        document.body.style.backgroundImage='url("../images/Afternoon.jpg")';}
+        document.body.style.backgroundImage='url("./images/Afternoon.jpg")';}
     else if(d.getHours()>16 && d.getHours()<=20)
         {g="Good Evening";
-        document.body.style.backgroundImage='url("../images/Evening.jpg")';}
+        document.body.style.backgroundImage='url("./images/Evening.jpg")';}
     
     document.body.style.backgroundSize="cover";
     document.body.style.backgroundPosition="center";
