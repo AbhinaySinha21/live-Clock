@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height:100vh;
+    width:100%;
+    font-size: 300%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+}
+ #date{
+    font-size: 50%;
+    font-weight: 100;
+}
+.container #greet{
+    font-size: 100%;
+    font-weight: 100;
+}
+#time,#local{
+    font-weight: lighter;
+    word-spacing: 2px;
+}
